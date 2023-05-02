@@ -1,5 +1,5 @@
 body {
-  font-family: "Muli", sans-serif;
+  font-family: 'Muli', sans-serif;
   font-weight: 300;
   background-color: #e2e8f0;
   padding: 40px;
@@ -9,7 +9,7 @@ label {
   display: flex;
   flex-direction: column;
   letter-spacing: 0.05rem;
-  font-size: .8em;
+  font-size: 0.8em;
   font-weight: 400;
   color: #222;
 }
@@ -58,7 +58,7 @@ input {
   text-transform: uppercase;
   letter-spacing: 1px;
   font-weight: 400;
-  font-size: .9em;
+  font-size: 0.9em;
   &:hover {
     cursor: pointer;
   }
@@ -72,7 +72,7 @@ input {
     text-transform: uppercase;
     letter-spacing: 1px;
     font-weight: 400;
-    font-size: .9em;
+    font-size: 0.9em;
     display: inline-flex;
     margin-top: 10px;
     padding: 0.75rem;
@@ -83,4 +83,27 @@ input {
 .transfer {
   display: flex;
   flex-direction: column;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding-top: 2rem;
+  padding-left: 1rem;
+}
+
+.card {
+  width: 12rem;
+  height: 16rem;
+  border: 1px solid black;
+  border-radius: 4px;
+  box-shadow: 6px 4px 12px rgba(0, 0, 0, 0.3);
+  padding: 1rem;
+  background-color: rgb(191, 191, 191);
+}
+
+.card-info {
+  font-size: 1.2rem;
+  line-height: 1.5;
 }
